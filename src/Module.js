@@ -7,7 +7,7 @@
 (function(app) {
 
     app.newModule = {
-
+        // code...
     };
 
 })(app);
@@ -20,7 +20,7 @@ var module = (function() {
 
     function privateMethod()
     {
-
+        // code...
     }
 
     // public
@@ -50,7 +50,7 @@ var module = (function() {
      */
     exp.publicMethod = function()
     {
-
+        // code...
     };
 
     return exp;
