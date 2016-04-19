@@ -4,13 +4,24 @@
 
 // V1
 
+var app = {};
+
 (function(app) {
 
-    app.newModule = {
-        // code...
+    app.Module = {
+
+        Method: function()
+        {
+            // code...
+        }
+
     };
 
 })(app);
+
+// use
+
+app.Module.Method();
 
 // V2
 
