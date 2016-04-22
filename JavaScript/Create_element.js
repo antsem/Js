@@ -2,7 +2,10 @@
  * Create element
  */
 
-function createElement()
 {
-    
+    var e = document.createElement(name);
+
+    // code
+
+    return e;
 }
