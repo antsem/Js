@@ -4,11 +4,14 @@
 
 (function($){
 
-    $.fn.plugin = function(options) {
+    $.fn.plugin = function(opts) {
 
-        options = $.extend({
+        // default options
+        var defaults = {
             key: "value"
-        }, options);
+        };
+
+        var options = $.extend(defaults, opts || {});
 
         return this.each(function() {
             // code...
