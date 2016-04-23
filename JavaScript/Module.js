@@ -38,9 +38,6 @@ var module = (function() {
 
     return {
 
-        /**
-         * My publicMethod
-         */
         publicMethod: function()
         {
             // code...
@@ -56,9 +53,6 @@ var module = (function() {
 
     var exp = {}; // export
 
-    /**
-     * My publicMethod
-     */
     exp.publicMethod = function()
     {
         // code...
