@@ -4,7 +4,7 @@
 
 (function($){
 
-    jQuery.fn.plugin = function(options) {
+    $.fn.plugin = function(options) {
 
         options = $.extend({
             key: "value"
